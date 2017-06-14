@@ -9,3 +9,9 @@
       required: true
       default: 2
       type: int
+    - variable: TTL
+      label: Default TTL for local responses
+      description: Specify TTL in seconds for local responses.
+      required: true
+      default: 600
+      type: int
